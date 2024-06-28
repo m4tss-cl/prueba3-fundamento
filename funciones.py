@@ -38,7 +38,7 @@ def clasificar():
         electronica = []
         textil = []
         calzado = []
-        for categoria in leer:
+        for categoria in leer: #revisa la palabra en el indice 2 y si esta entre las categorias validas la agrega a listas separadas
             if categoria[2] == "electronica":
                 electronica.append(categoria)
             elif categoria[2] == "textil":
